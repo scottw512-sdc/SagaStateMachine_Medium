@@ -19,6 +19,12 @@ Run Migrations - dotnet ef database update
 * SagaService
 * GenerateTicket
 
+Run services to create queues
+* TicketService
+* SagaService
+* GenerateTicket
+* EmailService
+
 Run TicketService and POST JSON body to http://localhost:5000/api/ticket
 {
     "title": "title-test",
